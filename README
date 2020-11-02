@@ -1,0 +1,2 @@
+DEBUG=catalogo:* npm start para correr
+en public esta el index.html para iniciar página

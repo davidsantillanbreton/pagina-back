@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crear Producto</title>
+                <style type="text/css">
+        body{
+          margin: 0;
+          font-family: sans-serif;
+           }
+           .contenedor {
+   max-width: 1280px;
+   width: 90%;
+   margin: auto;
+}
+        header #navegador ul{
+   list-style-type: none;
+   text-align: right;
+ }
+header #navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 5px 0 0;
+}
+header #navegador li a {
+   padding: 2px 7px 2px 7px;
+   color:white;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+header #navegador li a:hover{
+   background-color: #053903;
+   color: #ffffff;
+}
+
+header {
+   background: linear-gradient(rgba(84, 93, 220, 0.5), rgba(96, 131, 245, 0.5)), url(../IMG/hojas1.jpeg);
+   height: 40vh;
+   background-size:cover;
+  }   
+
+footer{
+  background: #2F2F2F;
+  padding: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+footer .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer img{
+  margin: 0 40px;
+  transform: rotate(0);
+  transition:0.4s;
+}
+footer img:hover{
+  transform: rotate(360deg);
+}
+footer p{
+  color: #fff;
+  margin-top: 40px;
+}
+
+
+#link{
+  font-size: 13px;
+  color: #fff;
+  background: #333;
+  padding: 14px 24px;
+  display:inline-block;
+  text-decoration: none;
+  margin-top:20px;
+  margin-left: 50px;
+
+}
+
+
+    </style>
+    </head>
+    <body>
+                <header>    
+    <!--menu-->
+    <div class="contenedor">
+     <div id="navegador">
+     <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html">Conoce más</a></li>
+            <li><a href="#contact">Contacto</a></li>
+    <li><a href="catalogo.html">Catálogo</a></li>
+     </ul>
+     </div>
+    </div> 
+  </header>
+        <div class="contenedor">
+            <h3><a id="link" href="/products">Volver a lista de Productos</a></h3>
+            <h1>Crea Nuevo Producto</h1>
+            <form action="/products/save" method="post">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Nombre</td>
+                            <td><input type="text" name="name" /></td>
+                        </tr>
+                        <tr>
+                            <td>Precio</td>
+                            <td><input type="text" name="price" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="submit" value="Save" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+              <footer>
+    <div class="contenedor">
+      <div class="redes" id="contact">
+        <a target="_blank" href="https://www.facebook.com/"><img src=".../IMG/facebook.png" width="30px"></a>
+        <a target="_blank" href="https://twitter.com/"><img src="../IMG/twitter.png" width="30px"></a>
+        <a target="_blank" href="https://www.youtube.com/"><img src="../IMG/youtube.png" width="30px"></a>
+        <a target="_blank" href="https://www.instagram.com/"><img src="../IMG/instagram.png" width="30px"></a> 
+      </div>
+      
+        <p>Contacto Tel. 5555555 | Correo: info@mail.com </p>
+    
+    </div>
+  </footer>  
+    </body>
+</html>

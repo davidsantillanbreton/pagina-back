@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html leng="esp">
+<head>
+	<meta charset="utf-8">
+	<title>Catálogo</title>
+	<style type="text/css">
+		body{
+          margin: 0;
+          font-family: sans-serif;
+           }
+           .contenedor {
+   max-width: 1280px;
+   width: 90%;
+   margin: auto;
+}
+        header #navegador ul{
+   list-style-type: none;
+   text-align: right;
+ }
+header #navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 5px 0 0;
+}
+header #navegador li a {
+   padding: 2px 7px 2px 7px;
+   color:white;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+header #navegador li a:hover{
+   background-color: #053903;
+   color: #ffffff;
+}
+
+header {
+   background: linear-gradient(rgba(84, 93, 220, 0.5), rgba(96, 131, 245, 0.5)), url(IMG/hojas1.jpeg);
+   height: 40vh;
+   background-size:cover;
+  }   
+
+footer{
+  background: #2F2F2F;
+  padding: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+footer .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer img{
+  margin: 0 40px;
+  transform: rotate(0);
+  transition:0.4s;
+}
+footer img:hover{
+  transform: rotate(360deg);
+}
+footer p{
+  color: #fff;
+  margin-top: 40px;
+}
+
+.contenedor1 h1{
+    text-align: center;
+}
+.contenedor1 a{
+  font-size: 13px;
+  color: #fff;
+  background: #333;
+  padding: 14px 24px;
+  display:inline-block;
+  text-decoration: none;
+  margin-top:20px;
+  margin-left: 50px;
+
+}
+.cuadros{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+ 
+}
+.cuadros img{
+	margin-left: 20px;
+
+}
+.agregar img{
+	margin-left: 80px;
+
+}
+
+	</style>
+
+
+
+</head>
+<header>	
+    <!--menu-->
+	<div class="contenedor">
+	 <div id="navegador">
+	 <ul>
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="index.html">Conoce más</a></li>
+		<li><a href="index.html">Contacto</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+	 </ul>
+	 </div>
+	</div> 
+  </header>
+<body>
+	<div class="contenedor1">
+	<h1>Catalogo de Productos</h1>
+	<div class="cuadros">
+	<div class="ver">
+	<a href="products">Ver lista de productos, editarlos y borrarlos</a><br><br><br>
+	<img src="IMG/expediente (3).png" width="100px">	
+	<img src="IMG/expediente (1).png" width="100px">	
+	<img src="IMG/expediente.png" width="100px">	
+    </div>
+    <div class="agregar">
+	<a href="products/create">Agregar Productos</a><br><br><br>
+	<img src="IMG/expediente (2).png" width="100px">	
+	</div>
+	</div>
+	</div>
+<footer>
+  	<div class="contenedor">
+  	  <div class="redes" id="contact">
+  	    <a target="_blank" href="https://www.facebook.com/"><img src="IMG/facebook.png" width="30px"></a>
+        <a target="_blank" href="https://twitter.com/"><img src="IMG/twitter.png" width="30px"></a>
+        <a target="_blank" href="https://www.youtube.com/"><img src="IMG/youtube.png" width="30px"></a>
+        <a target="_blank" href="https://www.instagram.com/"><img src="IMG/instagram.png" width="30px"></a>	
+      </div>
+      
+        <p>Contacto Tel. 5555555 | Correo: info@mail.com </p>
+    
+    </div>
+  </footer>
+</body>
+</html>
