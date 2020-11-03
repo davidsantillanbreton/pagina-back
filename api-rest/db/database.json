@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "producto": "sustrato",
+      "precio": "$40",
+      "caracteristicas": "500gr"
+    },
+    {
+      "id": 2,
+      "producto": "suculenta",
+      "precio": "$25",
+      "caracteristicas": "mediana"
+    },
+    {
+      "id": 3,
+      "producto": "tierra",
+      "precio": "$15",
+      "caracteristicas": "1kg"
+    },
+    {
+      "id": 4,
+      "producto": "cactus",
+      "precio": "$30",
+      "caracteristicas": "mediana"
+    },
+    {
+      "id": 5,
+      "producto": "contenedor",
+      "precio": "$30",
+      "caracteristicas": "standar"
+    },
+    {
+      "id": 6,
+      "producto": "piedras",
+      "precio": "$30",
+      "caracteristicas": "1kg"
+    },
+  ]
+}
